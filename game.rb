@@ -110,7 +110,7 @@ class Game
         0.upto(SIZE-1) do |j| 
           if @matrix[i][j] == 0 
             if k == 0
-              @matrix[i][j] = 2 if k == 0
+              @matrix[i][j] = 2
               return
             end
             k -= 1
